@@ -1,0 +1,27 @@
+{
+    "name": "metamath-syntax-highlighting",
+    "icon": "mmlogotitle.svg.png",
+    "displayName": "Metamath Syntax Highlighting",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "publisher": "xuanji",
+    "contributes": {
+        "languages": [{
+            "id": "metamath",
+            "aliases": ["Metamath", "metamath"],
+            "extensions": [".mm"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "metamath",
+            "scopeName": "text.metamath",
+            "path": "./syntaxes/metamath.tmLanguage.json"
+        }]
+    }
+}
