@@ -1,6 +1,10 @@
 {
     "name": "metamath-syntax-highlighting",
     "icon": "mmlogotitle.svg.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/IIIIllllIIIIllllIIIIllllIIIIllllIIIIll/metamath-syntax-highlighting"
+    },
     "displayName": "Metamath Syntax Highlighting",
     "description": "",
     "version": "0.0.1",
